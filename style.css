@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    ;
+    
     
 }
 
@@ -13,7 +13,7 @@ body {
 header h1 {
     text-align: center;
     font-size: 40px;
-    color: rgb(247, 163, 7);
+    color: rgb(212, 97, 30);
 }
 .img1{
     width: 155px;
@@ -23,7 +23,7 @@ header h1 {
 
 header {
     padding: 40px;
-    background-color: rgb(216, 205, 158);
+    background-color: rgb(194, 166, 159);
 }
 
 nav {
