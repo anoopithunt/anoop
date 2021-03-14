@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    
-    
-}
+
 
 body {
     margin: 0px;
@@ -13,7 +9,9 @@ body {
 header h1 {
     text-align: center;
     font-size: 40px;
-    color: rgb(212, 97, 30);
+    box-sizing: content-box;
+
+    color: rgb(230, 155, 18);
 }
 .img1{
     width: 155px;
@@ -22,13 +20,18 @@ header h1 {
 }
 
 header {
+    margin: 0%;
     padding: 40px;
-    background-color: rgb(194, 166, 159);
+    text-align: center;
+    background: repeating-radial-gradient(rgb(247, 231, 9),rgba(25, 0, 255, 0.856));
 }
 
 nav {
-    background-color: rgb(22, 17, 17);
+    background-position-x: left;
+    text-align: center;
     overflow: hidden;
+    background: repeating-radial-gradient(rgb(240, 238, 214),rgba(189, 15, 180, 0.856));
+    font-weight: bolder;
 }
 
 nav a {
@@ -40,7 +43,7 @@ nav a {
 }
 
 main {
-    background-color: rgba(241, 206, 46, 0.87);
+    background: repeating-radial-gradient(red,yellow);
     text-align: center;
 }
 
@@ -56,13 +59,9 @@ section {
     min-height: 100vh;
 }
 
-video {
-    padding: 10px;
-}
 
-iframe {
-    height: 75vh;
-}
+
+
 
 img {
     padding: 10px;
@@ -73,7 +72,7 @@ section h5 {
 }
 
 footer {
-    background-color: rgb(207, 149, 126);
+    background: repeating-radial-gradient(orange,rgb(0, 204, 255));
     overflow: hidden;
 }
 
