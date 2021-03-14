@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+/*background-image: url(img/background.jpg);*/
+flex: auto;
+
+}
+.container{
+    padding: 40px;
+    margin: 20px;
+    color: rgb(250, 246, 246);
+    border:0px;
+    font-style: oblique;
+   
+    background: repeating-radial-gradient(red,yellow);
+}
+div a{
+text-decoration: none;
+color:rgb(33, 8, 34);
+font-weight: bolder;
+
+
+}
+.pic{
+ border-radius: 120px 120px 45px 45px;
+
+}
